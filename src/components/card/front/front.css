@@ -1,0 +1,641 @@
+.front{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(213, 19%, 18%);
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 25px;
+    background-color: transparent;
+
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+
+
+.front svg{
+    width: 1.2vw;
+    height: 4.5vw;
+    display: flex;
+    align-self: center;
+}
+
+
+
+.front .startSvg{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 15em;
+    background-color: hsl(216, 12%, 54%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+}
+
+
+
+.front > .title{
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    font-size: 2vw;
+    display: flex;
+    justify-content: start;
+}
+
+
+
+
+.front > .question{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.2vw;
+    text-align: start;
+    color: hsl(0, 0%, 100%);
+    color: hsl(217, 12%, 63%);
+}
+
+
+
+
+
+
+
+
+
+.front > .NumbersList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    height: 5em;
+}
+
+
+.NumbersList > .number{
+    font-size: 1.5vw;
+    height: 4vw;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5em;
+    color: hsl(216, 12%, 54%);
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(216, 12%, 54%);
+    cursor: pointer;
+}
+
+
+
+
+.NumbersList > .number:hover{
+    background-color:  hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+    
+}
+
+
+
+
+
+
+
+.submitBTN{
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    padding: 4%;
+    border-radius: 5em;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+
+
+.submitBTN:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1300px) and (min-width:900px){
+    
+
+.front svg{
+    width: 2vw;
+    height: 4.5vw;
+    display: flex;
+    align-self: center;
+}
+
+
+
+.front .startSvg{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 15em;
+    background-color: hsl(216, 12%, 54%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+}
+
+
+
+.front > .title{
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    font-size: 2.7vw;
+    display: flex;
+    justify-content: start;
+}
+
+
+
+
+.front > .question{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5vw;
+    text-align: start;
+    color: hsl(0, 0%, 100%);
+    color: hsl(217, 12%, 63%);
+}
+
+
+
+
+
+
+
+
+
+.front > .NumbersList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    height: 5em;
+}
+
+
+.NumbersList > .number{
+    font-size: 2.5vw;
+    height: 6vw;
+    width: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5em;
+    color: hsl(216, 12%, 54%);
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(216, 12%, 54%);
+    cursor: pointer;
+}
+
+
+
+
+.NumbersList > .number:hover{
+    background-color:  hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+    
+}
+
+
+
+
+
+
+
+.submitBTN{
+    text-transform: uppercase;
+    font-size: 2vw;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    padding: 4%;
+    border-radius: 5em;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+
+
+.submitBTN:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+    
+}
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:899px) and (min-width:600px){
+    
+
+    .front svg{
+        width: 4.5vw;
+        height: 5.5vw;
+        display: flex;
+        align-self: center;
+    }
+    
+    
+    
+    .front .startSvg{
+        width: 10vw;
+        height: 10vw;
+        border-radius: 15em;
+        background-color: hsl(216, 12%, 54%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(216, 12%, 8%);
+    }
+    
+    
+    
+    .front > .title{
+        color: hsl(0, 0%, 100%);
+        width: 100%;
+        font-size: 5vw;
+        display: flex;
+        justify-content: start;
+    }
+    
+    
+    
+    
+    .front > .question{
+        color: hsl(0, 0%, 100%);
+        font-size: 4vw;
+        text-align: start;
+        color: hsl(0, 0%, 100%);
+        color: hsl(217, 12%, 63%);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .front > .NumbersList{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        align-items: center;
+        width: 100%;
+        height: 5em;
+    }
+    
+    
+    .NumbersList > .number{
+        font-size: 4vw;
+        height: 10vw;
+        width: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5em;
+        color: hsl(216, 12%, 54%);
+        background-color: hsl(216, 12%, 8%);
+        color: hsl(216, 12%, 54%);
+        cursor: pointer;
+    }
+    
+    
+    
+    
+    .NumbersList > .number:hover{
+        background-color:  hsl(216, 12%, 54%);
+        color: hsl(0, 0%, 100%);
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    .submitBTN{
+        text-transform: uppercase;
+        font-size: 4vw;
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(0, 0%, 100%);
+        padding: 4%;
+        border-radius: 5em;
+        cursor: pointer;
+        letter-spacing: 2px;
+    }
+    
+    
+    
+    .submitBTN:hover{
+        color: hsl(25, 97%, 53%);
+        background-color: hsl(0, 0%, 100%);
+        
+    }
+    
+    
+    }
+
+
+
+
+@media screen and (max-width:599px) and (min-width:480px){
+
+    }
+
+
+
+@media screen and (max-width:479px) and (min-width:375px){
+    
+    .front {
+        width: 100%;
+        height: 100%;
+        background-color: hsl(213, 19%, 18%);
+        backface-visibility: hidden;
+        position: absolute;
+        border-radius: 25px;
+        background-color: transparent;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+    }
+    
+
+        .front svg{
+            width: 5.2vw;
+            height: 7.5vw;
+            display: flex;
+            align-self: center;
+        }
+        
+        
+        
+        .front .startSvg {
+            width: 10vw;
+            height: 10vw;
+            border-radius: 15em;
+            background-color: hsl(216, 12%, 54%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: hsl(216, 12%, 8%);
+        }
+        
+        
+        
+        .front > .title{
+            color: hsl(0, 0%, 100%);
+            width: 100%;
+            font-size: 6vw;
+            display: flex;
+            justify-content: start;
+        }
+        
+        
+        
+        
+        .front > .question{
+            color: hsl(0, 0%, 100%);
+            font-size: 4.2vw;
+            text-align: start;
+            color: hsl(0, 0%, 100%);
+            color: hsl(217, 12%, 63%);
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        .front > .NumbersList{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            list-style: none;
+            align-items: center;
+            width: 100%;
+            height: 3em;
+        }
+        
+        
+        .NumbersList > .number{
+            font-size: 6vw;
+            height: 11vw;
+            width: 11vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5em;
+            color: hsl(216, 12%, 54%);
+            background-color: hsl(216, 12%, 8%);
+            color: hsl(216, 12%, 54%);
+            cursor: pointer;
+        }
+        
+        
+        
+        
+        .NumbersList > .number:hover{
+            background-color:  hsl(216, 12%, 54%);
+            color: hsl(0, 0%, 100%);
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        .submitBTN{
+            text-transform: uppercase;
+            font-size: 5vw;
+            background-color: hsl(25, 97%, 53%);
+            color: hsl(0, 0%, 100%);
+            padding: 4%;
+            border-radius: 5em;
+            cursor: pointer;
+            letter-spacing: 2px;
+        }
+        
+        
+        
+        .submitBTN:hover{
+            color: hsl(25, 97%, 53%);
+            background-color: hsl(0, 0%, 100%);
+            
+        }
+        
+        
+        }
+
+
+
+
+        @media screen and (max-width:374px){
+    
+            .front {
+                width: 100%;
+                height: 100%;
+                background-color: hsl(213, 19%, 18%);
+                backface-visibility: hidden;
+                position: absolute;
+                border-radius: 25px;
+                background-color: transparent;
+                padding: 5%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: start;
+            }
+            
+        
+                .front svg{
+                    width: 7vw;
+                    height: 9vw;
+                    display: flex;
+                    align-self: center;
+                }
+                
+                
+                
+                .front .startSvg {
+                    width: 15vw;
+                    height: 14vw;
+                    border-radius: 15em;
+                    background-color: hsl(216, 12%, 54%);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: hsl(216, 12%, 8%);
+                }
+                
+                
+                
+                .front > .title{
+                    color: hsl(0, 0%, 100%);
+                    width: 100%;
+                    font-size: 8vw;
+                    display: flex;
+                    justify-content: start;
+                }
+                
+                
+                
+                
+                .front > .question{
+                    color: hsl(0, 0%, 100%);
+                    font-size: 5vw;
+                    text-align: start;
+                    color: hsl(0, 0%, 100%);
+                    color: hsl(217, 12%, 63%);
+                }
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                .front > .NumbersList{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    list-style: none;
+                    align-items: center;
+                    width: 100%;
+                    height: 3em;
+                }
+                
+                
+                .NumbersList > .number{
+                    font-size: 7vw;
+                    height: 13vw;
+                    width: 13vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 5em;
+                    color: hsl(216, 12%, 54%);
+                    background-color: hsl(216, 12%, 8%);
+                    color: hsl(216, 12%, 54%);
+                    cursor: pointer;
+                }
+                
+                
+                
+                
+                .NumbersList > .number:hover{
+                    background-color:  hsl(216, 12%, 54%);
+                    color: hsl(0, 0%, 100%);
+                    
+                }
+                
+                
+                
+                
+                
+                
+                
+                .submitBTN{
+                    text-transform: uppercase;
+                    font-size: 5vw;
+                    background-color: hsl(25, 97%, 53%);
+                    color: hsl(0, 0%, 100%);
+                    padding: 4%;
+                    border-radius: 5em;
+                    cursor: pointer;
+                    letter-spacing: 2px;
+                }
+                
+                
+                
+                .submitBTN:hover{
+                    color: hsl(25, 97%, 53%);
+                    background-color: hsl(0, 0%, 100%);
+                    
+                }
+                
+                
+                }
